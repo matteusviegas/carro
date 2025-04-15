@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import Image from "next/image";
-import CustomButton from "./CUstomButton";
+import CustomButton from "./CustomButton";
 const Hero = () => {
     const handleScroll = () => {
 
@@ -17,9 +17,16 @@ const Hero = () => {
             </p>
             <CustomButton
                 title="Expore Cars"
-                containerStyles="bg-primary-blue text-whire rounded-full mt-10"
+                containerSyles="bg-primary-blue text-whire rounded-full mt-10"
                 handleClick={handleScroll}
             />
+            <div className="hero__image-container">
+                <div className="hero__image">
+                    <Image src="/hero.png" alt="hero"
+                    fill className="object-contain"/>
+                    <div className="hero__image-overlay"/>
+                </div>
+            </div>
         </div>
     )
 }
