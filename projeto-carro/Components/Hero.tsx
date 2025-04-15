@@ -18,8 +18,7 @@ const Hero = () => {
             <CustomButton
                 title="Expore Cars"
                 containerSyles="bg-primary-blue text-whire rounded-full mt-10"
-                handleClick={handleScroll}
-            />
+                handleClick={handleScroll} btnType={"button"}            />
             <div className="hero__image-container">
                 <div className="hero__image">
                     <Image src="/hero.png" alt="hero"
