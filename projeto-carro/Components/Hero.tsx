@@ -13,7 +13,7 @@ const Hero = () => {
                 Find, book,
             </div>
             <p className="hero_subtitle ">
-                Streaming your car rental experience with our effortless
+                Streaming your car rentals experience with our effortless
             </p>
             <CustomButton
                 title="Expore Cars"
