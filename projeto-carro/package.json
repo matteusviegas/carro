@@ -14,7 +14,11 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@tailwindcss/postcss": "^4.1.4",
+=======
+    "@tailwindcss/postcss": "^4",
+>>>>>>> cd54550702621fa49bfcfeb785431f74b2a1789d
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
@@ -22,5 +26,14 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.4",
     "typescript": "^5"
+<<<<<<< HEAD
   }
+=======
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+>>>>>>> cd54550702621fa49bfcfeb785431f74b2a1789d
 }
